@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title data-i18n="meta.title">Chile, país invitado de honor · Frankfurter Buchmesse 2027</title>
+  <meta name="description" data-i18n-attr="content" data-i18n="meta.desc"
+        content="Camino a Frankfurt 2027: Chile es el país invitado de honor de la Feria del Libro de Frankfurt. Autores, programa, editoriales y noticias." />
+  <meta name="theme-color" content="#14213d" />
+
+  <meta property="og:title" content="Chile, país invitado de honor · Frankfurter Buchmesse 2027" />
+  <meta property="og:description" content="Camino a Frankfurt 2027. Las voces, los libros y la cultura de Chile en la mayor feria del libro del mundo." />
+  <meta property="og:type" content="website" />
+
+  <!-- Seguridad: CSP (defensa en profundidad) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'self'; form-action 'self'" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido</a>
+
+  <!-- ====== Barra superior ====== -->
+  <header class="nav" id="inicio">
+    <div class="container nav__inner">
+      <a href="#inicio" class="brand">
+        <span class="brand__mark">CL</span>
+        <span class="brand__txt">
+          <strong>Camino a Frankfurt 2027</strong>
+          <small data-i18n="brand.sub">Chile · País invitado de honor</small>
+        </span>
+      </a>
+
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#invitacion" data-i18n="nav.invitacion">La invitación</a>
+        <a href="#programa" data-i18n="nav.programa">Programa</a>
+        <a href="#autores" data-i18n="nav.autores">Autoras y autores</a>
+        <a href="#prensa" data-i18n="nav.prensa">Prensa</a>
+        <a href="#contacto" class="nav__cta" data-i18n="nav.contacto">Contacto</a>
+      </nav>
+
+      <div class="lang" role="group" aria-label="Idioma / Language / Sprache">
+        <button type="button" class="lang__btn" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" class="lang__btn" data-lang="de" aria-pressed="false">DE</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ====== HERO ====== -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__aurora"></span>
+        <span class="hero__pattern"></span>
+        <div class="hero__spines">
+          <i style="--h:70%;--d:0s"></i><i style="--h:48%;--d:.6s"></i><i style="--h:82%;--d:.2s"></i><i style="--h:56%;--d:1s"></i><i style="--h:74%;--d:.4s"></i><i style="--h:44%;--d:.8s"></i><i style="--h:64%;--d:.3s"></i>
+        </div>
+      </div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Frankfurter Buchmesse · 2027</p>
+        <h1 class="hero__title" data-i18n="hero.title">Chile, país invitado de honor</h1>
+        <p class="hero__sub" data-i18n="hero.sub">Las voces, los libros y la cultura de Chile llegan a la mayor feria del libro del mundo. Este es el camino.</p>
+
+        <!-- Cuenta regresiva -->
+        <div class="countdown" id="countdown" aria-live="polite">
+          <div class="cd__item glass"><span class="cd__num" id="cd-d">—</span><span class="cd__lbl" data-i18n="cd.days">días</span></div>
+          <div class="cd__item glass"><span class="cd__num" id="cd-h">—</span><span class="cd__lbl" data-i18n="cd.hours">horas</span></div>
+          <div class="cd__item glass"><span class="cd__num" id="cd-m">—</span><span class="cd__lbl" data-i18n="cd.min">min</span></div>
+          <div class="cd__item glass"><span class="cd__num" id="cd-s">—</span><span class="cd__lbl" data-i18n="cd.sec">seg</span></div>
+        </div>
+        <p class="hero__note" data-i18n="cd.note">Octubre 2027 · Frankfurt, Alemania</p>
+
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#programa" data-i18n="hero.cta1">Ver el programa</a>
+          <a class="btn btn--ghost" href="#invitacion" data-i18n="hero.cta2">Conocer la invitación</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== LA INVITACIÓN ====== -->
+    <section class="section" id="invitacion">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow" data-i18n="inv.eyebrow">La invitación</p>
+          <h2 class="section__title" data-i18n="inv.title">Un país entero como protagonista</h2>
+          <p class="lead" data-i18n="inv.p1">Ser país invitado de honor en la Feria del Libro de Frankfurt es la mayor vitrina cultural a la que puede acceder una nación: una invitación a mostrar su literatura, su pensamiento y su identidad ante el mundo editorial.</p>
+          <p class="lead" data-i18n="inv.p2">«Camino a Frankfurt 2027» reúne el trabajo de autoras y autores, editoriales, traductores e instituciones que preparan la presencia de Chile en 2027.</p>
+        </div>
+        <ul class="facts">
+          <li><span class="facts__num">2027</span><span data-i18n="inv.f1">Año de Chile como invitado de honor</span></li>
+          <li><span class="facts__num">+100</span><span data-i18n="inv.f2">autoras, autores y editoriales convocadas</span></li>
+          <li><span class="facts__num">3</span><span data-i18n="inv.f3">idiomas del sitio: español, inglés y alemán</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ====== PROGRAMA ====== -->
+    <section class="section section--paper2" id="programa">
+      <div class="container">
+        <p class="eyebrow" data-i18n="prog.eyebrow">Programa</p>
+        <h2 class="section__title" data-i18n="prog.title">El camino, hito a hito</h2>
+        <ol class="timeline">
+          <li><span class="tl__date">2026</span><h3 data-i18n="prog.h1">Convocatoria y selección</h3><p data-i18n="prog.p1">Llamados a editoriales y autores; definición de la delegación.</p></li>
+          <li><span class="tl__date">2027 · I</span><h3 data-i18n="prog.h2">Traducciones y derechos</h3><p data-i18n="prog.p2">Apoyo a la traducción de obras y gestión de derechos internacionales.</p></li>
+          <li><span class="tl__date">2027 · II</span><h3 data-i18n="prog.h3">Actividades previas</h3><p data-i18n="prog.p3">Lanzamientos, residencias y encuentros rumbo a la feria.</p></li>
+          <li><span class="tl__date">Oct 2027</span><h3 data-i18n="prog.h4">Frankfurter Buchmesse</h3><p data-i18n="prog.p4">Chile, país invitado de honor, en el pabellón principal.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ====== AUTORES ====== -->
+    <section class="section" id="autores">
+      <div class="container">
+        <p class="eyebrow" data-i18n="aut.eyebrow">Autoras y autores</p>
+        <h2 class="section__title" data-i18n="aut.title">Las voces que viajan</h2>
+        <p class="lead lead--wide" data-i18n="aut.lead">Una muestra de la literatura chilena contemporánea. (Contenido de demostración para el prototipo.)</p>
+        <div class="cards">
+          <article class="acard"><div class="acard__ph" aria-hidden="true">A</div><h3>Autora ejemplo</h3><p data-i18n="aut.role">Narrativa</p></article>
+          <article class="acard"><div class="acard__ph" aria-hidden="true">B</div><h3>Autor ejemplo</h3><p data-i18n="aut.role2">Poesía</p></article>
+          <article class="acard"><div class="acard__ph" aria-hidden="true">C</div><h3>Autora ejemplo</h3><p data-i18n="aut.role3">Ensayo</p></article>
+          <article class="acard"><div class="acard__ph" aria-hidden="true">D</div><h3>Editorial ejemplo</h3><p data-i18n="aut.role4">Casa editora</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PRENSA / NOTICIAS ====== -->
+    <section class="section section--paper2" id="prensa">
+      <div class="container">
+        <p class="eyebrow" data-i18n="news.eyebrow">Prensa y noticias</p>
+        <h2 class="section__title" data-i18n="news.title">Lo último del camino</h2>
+        <div class="news">
+          <article class="ncard"><time>2026</time><h3 data-i18n="news.h1">Chile inicia su camino a Frankfurt 2027</h3><p data-i18n="news.p1">Comienza la preparación oficial de la delegación nacional.</p><a href="#" data-i18n="news.more">Leer más</a></article>
+          <article class="ncard"><time>2026</time><h3 data-i18n="news.h2">Apoyo a la traducción de obras chilenas</h3><p data-i18n="news.p2">Programa para llevar la literatura nacional al alemán y al inglés.</p><a href="#" data-i18n="news.more">Leer más</a></article>
+          <article class="ncard"><time>2026</time><h3 data-i18n="news.h3">Kit de prensa disponible</h3><p data-i18n="news.p3">Material para medios nacionales e internacionales.</p><a href="#" data-i18n="news.more">Leer más</a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CONTACTO ====== -->
+    <section class="section cta" id="contacto">
+      <div class="container cta__inner">
+        <h2 data-i18n="cta.title">Súmate al camino</h2>
+        <p data-i18n="cta.sub">Recibe el programa, novedades y convocatorias rumbo a Frankfurt 2027.</p>
+        <form class="subscribe" id="subscribe" novalidate>
+          <label class="sr-only" for="email" data-i18n="cta.label">Correo electrónico</label>
+          <input type="email" id="email" name="email" required
+                 data-i18n-attr="placeholder" data-i18n="cta.ph" placeholder="tu@correo.cl" />
+          <button type="submit" class="btn btn--solid" data-i18n="cta.btn">Suscribirme</button>
+        </form>
+        <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p><strong>Camino a Frankfurt 2027</strong> · <span data-i18n="footer.org">Subsecretaría de las Culturas y las Artes</span></p>
+      <p data-i18n="footer.proto">Prototipo de demostración · Soldaduras Becker / propuesta de servicio</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
