@@ -193,6 +193,21 @@
       }
     }
 
+    // Día → noche según el scroll
+    var night = document.getElementById("nightLayer");
+    if (night) {
+      var dayNight = function () {
+        var h = document.documentElement;
+        var max = (h.scrollHeight - h.clientHeight) || 1;
+        var p = window.scrollY / max;
+        p = p < 0 ? 0 : (p > 1 ? 1 : p);
+        night.style.opacity = p.toFixed(3);
+      };
+      window.addEventListener("scroll", dayNight, { passive: true });
+      window.addEventListener("resize", dayNight, { passive: true });
+      dayNight();
+    }
+
     tick();
     setInterval(tick, 1000);
   });
